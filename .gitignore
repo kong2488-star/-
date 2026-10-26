@@ -1,0 +1,34 @@
+# Local settings and credentials
+.env
+.env.*
+!.env.example
+
+# Python and notebooks
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# Firmware and generated build files
+.pio/
+build/
+dist/
+*.elf
+*.bin
+*.hex
+*.o
+
+# MATLAB / Simulink generated files
+slprj/
+*.slxc
+*.asv
+*.m~
+
+# Dashboard dependencies
+node_modules/
+
+# Operating system files
+.DS_Store
+Thumbs.db
+Desktop.ini
